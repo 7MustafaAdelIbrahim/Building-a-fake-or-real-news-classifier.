@@ -21,3 +21,17 @@ True Positives (TP) — model predicts positive outcome & known outcome is posit
 False Negatives (FN) — model predicts negative outcome but known outcome is positive
 
 False Positives (FP) — model predicts positive outcome but known outcome is negative.
+
+Accuracy is generally not a very reliable metric because it can be biased by the most common target class.
+
+There are two other useful metrics:
+
+precision and
+recall.
+Check the slides for this lesson to get the relevant expressions.
+
+Precision is the proportion of positive predictions which are correct. For all flights which are predicted to be delayed, what proportion is actually delayed?
+
+Recall is the proportion of positives outcomes which are correctly predicted. For all delayed flights, what proportion is correctly predicted by the model?
+
+The precision and recall are generally formulated in terms of the positive target class. But it's also possible to calculate weighted versions of these metrics which look at both target classes.
