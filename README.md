@@ -15,6 +15,9 @@ A confusion matrix gives a useful breakdown of predictions versus known values. 
 
 
 True Negatives (TN) — model predicts negative outcome & known outcome is negative
+
 True Positives (TP) — model predicts positive outcome & known outcome is positive
+
 False Negatives (FN) — model predicts negative outcome but known outcome is positive
+
 False Positives (FP) — model predicts positive outcome but known outcome is negative.
