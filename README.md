@@ -10,39 +10,35 @@ From my point of view, what we're in need most these days is a classifier to dif
 Then came the fake news which spread across people as fast as the real news could. Fake news is a piece of incorporated or falsified information often aimed at misleading people to a wrong path or damage a person or an entity’s reputation.
 
 ### About our dataset.
-[Our dataset from kaggle] (https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) contains two datasets, one is for real news, and the other is not.
+[Our dataset from kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) contains two datasets, one is for real news, and the other is not.
 
-### What i have done....
 After importing our two datasets, we have 23481 entries in fake news datasets, and 21417 entries in real ones, and we do not have any missingness.
 
-##### Data Cleaning
+#### Data Cleaning
 Identification and removal of errors if any in the gathered information. This process is carried out mainly to improve the dataset’s quality, make it reliable, and provide accurate decision-making processes.
 
-#### Text pre-processing
-      We need to perform two steps to make this dataset suitable for machine learning.
+### Text pre-processing
+We need to perform two steps to make this dataset suitable for machine learning.
 Our target is to standardize the text. We'll be covering the common ones. This involves steps like converting words to lowercase, removing unnecessary whitespace, removing punctuation, removing commonly occurring words or stopwords, expanding contracted words like don't and removing special characters such as numbers and emojis, and getting the base form of words. For instance, 'Reduction' gets converted to its base form, which is reduce.
 
-##### Remove english stopwords.
+#### Remove english stopwords.
 There are some words in the English language that occur so commonly and does not contain any useful information. So, it's often a good idea to ignore them, as they could skew our analysis and may negatively affect the machine learning model performance. Examples include articles such as a and the, be verbs such as am, is and are and pronouns such as he and she.
 
-##### Data Exploration/Analysis:
-
+#### Data Exploration/Analysis:
 Various visualization techniques are carried out here to understand the dataset in terms of its characteristics namely, size, quantity, etc. This process is essential to better understand the nature of the dataset and get insights faster.
 
 ![fake vs real](https://user-images.githubusercontent.com/84151016/180622770-8ab4e67e-b158-4652-9ca1-0241359d9b98.png)
 
 #### SOme feature engineering.
 
-<img src= "https://user-images.githubusercontent.com/84151016/180622788-956cad21-4969-4f35-aa01-b3cbadc2d627.png", width=300, height=400>
-<img src= "https://user-images.githubusercontent.com/84151016/180622808-5c7cbf9d-9579-4fb1-baed-c3df062f0254.png", width=300, height=400>
+<img src= "https://user-images.githubusercontent.com/84151016/180622788-956cad21-4969-4f35-aa01-b3cbadc2d627.png" width=300, height=400>
+
+<img src= "https://user-images.githubusercontent.com/84151016/180622808-5c7cbf9d-9579-4fb1-baed-c3df062f0254.png" width=300, height=400>
 
 
 #### Bag of words.
 
 ![bag of words](https://user-images.githubusercontent.com/84151016/180622802-bd250e2c-c9d0-40b6-8df1-9306824ff5e1.png)
-
-
-##### Data Modelling
 
 ### Model evalution.
             A confusion matrix gives a useful breakdown of predictions versus known values. It has four cells which represent the counts of:
