@@ -30,11 +30,10 @@ Various visualization techniques are carried out here to understand the dataset 
 ![fake vs real](https://user-images.githubusercontent.com/84151016/180622770-8ab4e67e-b158-4652-9ca1-0241359d9b98.png)
 
 #### SOme feature engineering.
-
-<img src= "https://user-images.githubusercontent.com/84151016/180622788-956cad21-4969-4f35-aa01-b3cbadc2d627.png" width=300, height=400>
-
+<p>
+<img src= "https://user-images.githubusercontent.com/84151016/180622788-956cad21-4969-4f35-aa01-b3cbadc2d627.png" width=300, height=400> 
 <img src= "https://user-images.githubusercontent.com/84151016/180622808-5c7cbf9d-9579-4fb1-baed-c3df062f0254.png" width=300, height=400>
-
+</p>
 
 #### Bag of words.
 
