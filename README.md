@@ -10,7 +10,7 @@ From my point of view, what we're in need most these days is a classifier to dif
 Then came the fake news which spread across people as fast as the real news could. Fake news is a piece of incorporated or falsified information often aimed at misleading people to a wrong path or damage a person or an entity’s reputation.
 
 ### About our dataset.
-[Our dataset from kaggle] (https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) contains two datasets, one is for real news, and the other is not.
+[Our dataset from kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) contains two datasets, one is for real news, and the other is not.
 ### What i have done....
 After importing our two datasets, we have 23481 entries in fake news datasets, and 21417 entries in real ones, and we do not have any missingness.
 ##### Data Cleaning
@@ -26,8 +26,8 @@ Various visualization techniques are carried out here to understand the dataset 
 
 #### Some feature engineering.
 <p>
-<img src= "https://user-images.githubusercontent.com/84151016/180622788-956cad21-4969-4f35-aa01-b3cbadc2d627.png", width=450, height=400>
-<img src= "https://user-images.githubusercontent.com/84151016/180622808-5c7cbf9d-9579-4fb1-baed-c3df062f0254.png", width=450, height=400>
+<img src= "https://user-images.githubusercontent.com/84151016/180622788-956cad21-4969-4f35-aa01-b3cbadc2d627.png", width=300, height=400>
+<img src= "https://user-images.githubusercontent.com/84151016/180622808-5c7cbf9d-9579-4fb1-baed-c3df062f0254.png", width=300, height=400>
 </p>
 
 #### Bag of words.
